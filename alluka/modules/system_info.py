@@ -63,7 +63,7 @@ def status(bot: Bot, update: Update):
 	chat = update.effective_chat
 	
 	stat = "--- System Status ---\n"
-	stat += "Cinderella Version: `5.5.2`""\n"
+	stat += "Andrea Version: `5.5.2`""\n"
 	stat += "Python Version: `"+python_version()+"`\n"
 	stat += "GitHub API Version: `"+str(git.vercheck())+"`\n"
 	#Software Info
